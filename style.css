@@ -1,0 +1,42 @@
+body {
+  background-color: #f5cdaa;
+}
+
+hr {
+  border-style: ridge;
+  border-width: medium;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-right-style: none;
+}
+
+h1 {
+  color: #5d5b6a;
+  font-family: "metrodf";
+}
+
+h3 {
+  color: #5d5b6a;
+  font-family: "antipasto";
+  font-weight: 200;
+}
+h4 {
+  color: #5d5b6a;
+  font-family: "antipasto";
+  font-weight: 100;
+}
+h5 {
+  color: #5d5b6a;
+  font-family: "garamond";
+  font-weight: 200;
+}
+
+tr {
+  color: #5d5b6a;
+  font-family: "antipasto";
+  font-stretch: 140%;
+}
+
+input {
+  size: width: 3px; margin: 5px; padding: 3px; border-color: white; border-width: 2px; background-color: lightgreen; text-decoration-color: darkblue;
+}

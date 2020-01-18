@@ -1,52 +1,73 @@
 <<!DOCTYPE html>
-<html lang="en" dir="ltr">
+  <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>Adresele</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
+
   <body>
     <p>
       <h1><b>Adresele la care ne puteti gasi:</b></h1>
     </p>
-
-    <table cellspacing="10" >
-      <tr>
-        <td>Bucuresti   *🟡************</td>
-        <td><b>Constanta *****</b>**</td>
-      </tr>
-      <tr>
-        <td>Oltenita  XXXXXXXXXX</td>
-        <td><b>Vaslui ****</b>****</td>
-      </tr>
-      <tr>
-        <td>Oradea</td>
-        <td><b>*****</b>*</td>
-      </tr>
-      <tr>
-        <td>Iasi</td>
-        <td><b>**</b>****</td>
-      </tr>
-    </table>
+    <centered>
+      <table cellspacing="15" width=40%>
+        <tr>
+          <th>Bucuresti</td>
+          <th>Ploiesti</td>
+        </tr>
+        <tr>
+          <td>Str. Barbu Mumuleanu 16B, sector 2</td>
+          <td>Str. Strandului nr 2 Parc Industrial CIPROM</td>
+        </tr>
+      </table>
+    </centered>
     <hr>
     <br>
     <br>
     <form action="mailto:personal.mihnea@gmail.com" method="post" enctype="text/plain">
-<table>
-  <tr>
-    <td>  <label>Comanda urmatoarele produse</label><br>
-      <textarea name="name" rows="3" cols="30"></textarea>
-      <input type="submit" name="" value=""></td>
-    <td><label>mobil:</label> <input type="tel" name="" value="">
-    <input type="checkbox" name="" value=""></td>
-    <td><label>Vreau sa fiu contactat prin email</label>
-    <input type="email" name="e-mail" value="">
-  </td>
-  </tr>
-</table>
-  <input type="submit" name="" value="Confirma optiunile">
 
+      <label>
+        <h2>Comanda urmatoarele produse</h2>
+      </label><br>
+      <table>
+        <tr>
+          <th>Produs</th>
+          <th>Cantitate (kg)</th>
+        </tr>
+        <tr>
+          <td><label>ADABLINE VGAN</label></td>
+          <td><input type="number" name="" value="1000">
+            <input type="checkbox" /></td>
+        </tr>
+        <tr>
+          <td><label>ADABLINE mycosin</label></td>
+          <td><input type="number" name="" value="1000">
+            <input type="checkbox" /></td>
+        </tr>
+        <tr>
+          <td><label>ADABLINE &#181B</label></td>
+          <td><input type="number" name="" value="1000">
+            <input type="checkbox" /></td>
+        </tr>
+      </table>
+      <br>
+      <hr>
+      <br>
+      <table>
+        <tr>
+          <td><label>Data livrarii</label></td>
+          <td><input type="date" name="" value="today"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button type="submit" name="button">Lanseaza comanda ferma</button></td>
+        </tr>
+      </table>
 
 
     </form>
   </body>
-</html>
+
+  </html>
